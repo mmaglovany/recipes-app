@@ -1,4 +1,4 @@
-import processRecipes, { bestBeforeNotPassedCount } from '../../../src/utils/process-recipes';
+import processRecipes, { bestBeforeNotPassedCount } from '@/utils/process-recipes';
 
 describe('processRecipes utility', () => {
   it('should return an empty array', () => {

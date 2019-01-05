@@ -1,4 +1,4 @@
-import processIngredients from '../../../src/utils/process-ingredients';
+import processIngredients from '@/utils/process-ingredients';
 
 describe('processIngredients utility', () => {
   it('should return an empty array', () => {

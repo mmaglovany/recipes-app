@@ -16,6 +16,7 @@ yarn run build
 ```
 
 ### Run your tests
+(dev server should work)
 ```
 yarn run test
 ```
