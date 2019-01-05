@@ -8,7 +8,7 @@
       What’s for lunch
     </button>
     <recipes-list
-      v-else="showRecipes"
+      v-else
       :ingredients="ingredients"
       :recipes="recipes"
     ></recipes-list>

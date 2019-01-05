@@ -26,10 +26,12 @@ yarn run test
 yarn run lint
 ```
 
-### Run your unit tests
+### Create Docker image
 ```
-yarn run test:unit
+docker build --tag=<image name> .
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Run project in the created image
+```
+docker run --rm -it -p 8080:8080 <image name>
+```
